@@ -1,1 +1,1 @@
-HTML/CSS/JS prac
+Python prac
