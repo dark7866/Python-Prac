@@ -18,7 +18,7 @@ message = input("message: ")
 
 
 #navigate to browser
-browser = webdriver.Firefox(executable_path=r'/home/rufyi/geckodriver')
+browser = webdriver.Firefox()
 browser.get('https://outlook.live.com/owa/')
 elem = browser.find_element_by_css_selector('.auxiliary-actions > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)')
 elem.click()
